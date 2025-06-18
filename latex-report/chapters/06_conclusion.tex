@@ -1,0 +1,46 @@
+\chapter{Conclusion and Future Work}
+\label{ch:conclusion}
+
+\section{Conclusion}
+
+This project explored the application of fundamental machine learning algorithms across three real-world datasets, encompassing both classification and clustering problems. Using Python and libraries such as \texttt{scikit-learn}, \texttt{pandas}, and \texttt{matplotlib}, each dataset was thoroughly preprocessed, visualized, modeled, and evaluated.
+
+In classification tasks:
+\begin{itemize}
+    \item \textbf{KNN} demonstrated high accuracy, especially on larger datasets like HTRU2, where it achieved 98.27\% accuracy.
+    \item \textbf{Naïve Bayes} was competitive, particularly with smaller feature sets and simple data distributions like the Raisin dataset.
+    \item Feature expansion highlighted the importance of dimensionality in classification accuracy and revealed distinct patterns in model behavior.
+\end{itemize}
+
+For clustering:
+\begin{itemize}
+    \item The Parking Birmingham dataset was effectively clustered using \textbf{K-Means}, with $K=3$ selected based on the Elbow Method.
+    \item Cluster visualization confirmed interpretable groupings based on parking lot usage, showcasing real-world applicability of unsupervised learning.
+\end{itemize}
+
+The results validate the importance of dataset characteristics in model performance, the benefit of modular experimentation, and the value of visualization in interpretation.
+
+\section{Limitations}
+
+While the models performed well, a few limitations existed:
+\begin{itemize}
+    \item The datasets were assumed to be clean and complete. Real-world noise and missing values were not deeply addressed.
+    \item Hyperparameter tuning (e.g., grid search for $k$ in KNN) was not extensively pursued.
+    \item The classification tasks focused only on two algorithms; a broader comparison with more complex models (e.g., Random Forest, SVM) could yield deeper insights.
+\end{itemize}
+
+\section{Future Work}
+
+Future improvements can include:
+\begin{itemize}
+    \item Expanding the project to include more advanced models such as ensemble methods or neural networks.
+    \item Integrating dimensionality reduction techniques like PCA to visualize and preprocess data more efficiently.
+    \item Applying the same methodology to more domain-specific datasets (e.g., finance, healthcare) to test generalization and adaptability.
+    \item Deploying models via web apps or dashboards to bridge the gap between modeling and user accessibility.
+\end{itemize}
+
+\section{Final Thoughts}
+
+This project reaffirmed the value of hands-on data science in understanding algorithmic behavior, feature importance, and model reliability. By combining theory with practical experimentation, we gained a deeper appreciation for the intricacies of machine learning and its real-world impact.
+
+The project concludes with a strong foundation in both classification and clustering — and a confident leap into more complex data science challenges ahead.

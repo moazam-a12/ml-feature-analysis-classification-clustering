@@ -1,0 +1,55 @@
+\chapter{Introduction}
+\label{ch:into}
+
+\section{Background}
+\label{sec:into_back}
+
+The field of data science combines statistics, machine learning, and domain knowledge to extract insights from structured and unstructured data. With the increasing accessibility of real-world datasets, it's vital to understand how core machine learning techniques can be applied, evaluated, and interpreted in practical scenarios. This project aims to explore foundational classification and clustering algorithms by applying them to diverse datasets sourced from open repositories. Through experimentation with supervised and unsupervised learning models, we analyze performance, patterns, and implications within real-world data.
+
+\section{Problem Statement}
+\label{sec:intro_prob_art}
+
+This project investigates the application of machine learning models on three distinct datasets. The core problem is twofold: first, to classify data points effectively using models like K-Nearest Neighbors (KNN) and Naïve Bayes; and second, to uncover natural groupings using K-Means clustering. Each dataset presents a unique challenge, requiring different preprocessing strategies, evaluation methods, and model tuning to derive meaningful results.
+
+\section{Aims and Objectives}
+\label{sec:intro_aims_obj}
+
+\textbf{Aims:}
+To apply machine learning models on real-world datasets and analyze their performance in classification and clustering contexts.
+
+\textbf{Objectives:}
+\begin{itemize}
+    \item Perform bivariate analysis on three datasets.
+    \item Apply KNN and Naïve Bayes for classification tasks.
+    \item Use K-Means clustering and the Elbow Method for unsupervised learning.
+    \item Evaluate models using confusion matrices and accuracy metrics.
+    \item Compare model performance as feature sets increase.
+    \item Present results visually and interpret them contextually.
+\end{itemize}
+
+\section{Solution Approach}
+\label{sec:intro_sol}
+
+The methodology involved loading and pre-processing datasets, performing exploratory visualizations, and applying relevant models using Python’s data science ecosystem. For classification, the Raisin and HTRU2 datasets were used with both KNN and Naïve Bayes. Confusion matrices and incremental feature sets were used to analyze trends. For clustering, the Parking Birmingham dataset was processed and clustered using K-Means, with the optimal number of clusters identified using the Elbow Method.
+
+\section{Summary of Contributions and Achievements}
+\label{sec:intro_sum_results}
+
+This project resulted in the successful implementation and evaluation of KNN, Naïve Bayes, and K-Means algorithms across three distinct datasets. KNN was found to be consistently more accurate than Naïve Bayes, particularly in the HTRU2 dataset, where it achieved an accuracy of 98.27\%. Bivariate plots and confusion matrices illustrated model behavior. The clustering task provided insights into parking data segmentation, with K=3 yielding the most interpretable results.
+
+\section{Organization of the Report}
+\label{sec:intro_org}
+
+This report is organized into seven chapters.
+
+Chapter~\ref{ch:into}: Introduces the background, problem, and solution approach.
+
+Chapter~\ref{ch:data_description}: Presents the dataset descriptions and pre-processing. 
+
+Chapter~\ref{ch:methods}: Explains the methodology and machine learning models used. 
+
+Chapter~\ref{ch:experiments}: Details experiments and model results. 
+
+Chapter~\ref{ch:comparison}: Provides a comparison of KNN and Naïve Bayes.
+
+Chapter~\ref{ch:conclusion}: Concludes the findings. The final chapter includes Python source code and supplementary materials for reproducibility.
